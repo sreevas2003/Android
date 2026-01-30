@@ -42,4 +42,12 @@ The Application Framework Layer sits between applications and the Android runtim
 It is a collection of Java/Kotlin APIs + system services that:
 1. **Activity Manager** - Activity Manager controls application lifecycle and manages activity stack.
 2. **Window Manager** - Manages windows & screen layout
-3. 
+3. **View System** - Builds the UI **Includes:** Views (Button, TextView, ImageView), ViewGroups (LinearLayout, ConstraintLayout), Event handling (touch, key).
+4. **Notification Manager** - Manages notifications.
+5. **Resource Manager** - Manages non-code resources **Handles:** Strings, Colors, Layouts, Drawables, Dimensions.
+6. **Package Manager** - Manages APK files **Responsibilities:** App installation / uninstallation, Permission validation, App signatures, App metadata
+7. **Content Providers** - Data sharing between apps
+8. **Location Manager** - Provides location services.
+9. **Telephony Manager** - Handles cellular communication. **Manages:** Calls, SMS, Network info, SIM details
+10. **Sensor Manager** - Access to device sensors **Examples:** Accelerometer, Gyroscope, Proximity, Light sensor
+
