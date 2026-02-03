@@ -555,6 +555,51 @@ Binder uses object-oriented IPC.
 - Stub → service side
 
 --------------------------------------
+
+**AIDL (Android Interface Definition Language)**
+📌 What is AIDL?
+
+AIDL is used to define interfaces for communication between Android applications and system services.
+
+📍 Layer:
+
+Application ↔ Application
+Application ↔ Framework Service
+
+**HIDL (HAL Interface Definition Language)**
+📌 What is HIDL?
+
+HIDL is used to define interfaces between Android Framework and Hardware Abstraction Layer (HAL).
+
+📍 Layer:
+
+Framework ↔ HAL
+System services ↔ Vendor hardware
+
+**AIDL vs HIDL**
+
+| Feature         | AIDL                                  | HIDL                              |
+| --------------- | ------------------------------------- | --------------------------------- |
+| Full Form       | Android Interface Definition Language | HAL Interface Definition Language |
+| Used Between    | Apps & services                       | Framework & HAL                   |
+| Introduced For  | App-level IPC                         | Project Treble                    |
+| Runs In         | App / system_server                   | Native HAL service                |
+| Hardware Access | ❌                                     | ✅                                 |
+| Versioning      | ❌                                     | ✅                                 |
+| File Extension  | `.aidl`                               | `.hal`                            |
+| Transport       | Binder                                | Binder                            |
+
+⚠️ Modern Android Note (VERY IMPORTANT)
+
+👉 HIDL is being replaced by AIDL for HALs (called AIDL HALs) in newer Android versions.
+
+So today:
+
+AIDL → Apps + Framework + New HALs
+
+HIDL → Legacy HALs
+
+-------------------------------------
 ## Zygote Process in Android
 **What is Zygote? (Definition)**
 
