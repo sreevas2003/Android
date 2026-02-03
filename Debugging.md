@@ -1,3 +1,42 @@
+**✅ STEP 1: Enable Developer Options (MOST IMPORTANT)**
+
+1. Open Settings
+2. Go to About device (or About phone)
+3. Tap Version
+4. Find Build number
+5. Tap Build number 7 times continuously
+
+You should see:
+
+🎉 “You are now in developer mode!”
+
+**✅ STEP 2: Open Developer Options (Realme UI Path)**
+Now go back:
+
+Settings → Additional settings → Developer options
+
+**✅ STEP 3: Enable USB Debugging**
+
+Inside Developer options:
+
+Turn ON:
+
+✅ Developer options (top toggle)
+
+✅ USB debugging
+
+(Optional but useful)
+
+✅ USB debugging (Security settings)
+
+Tap Allow / OK on popup.
+
+**🔌 STEP 4: Connect Phone to Laptop**
+
+1. Connect phone using USB cable
+2. USB notification → choose File transfer (MTP)
+
+------------------------------------------------------------------------
 # ANDROID DEBUGGING COMMANDS – CHEAT SHEET
 
 ---
